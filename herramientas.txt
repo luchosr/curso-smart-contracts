@@ -1,0 +1,18 @@
+HERRAMIENTAS
+
+
+nodejs:
+https://nodejs.org/es/
+truffle:
+http://truffleframework.com/
+Vs code
+https://code.visualstudio.com/
+Instalar extensión: vscode-solidity
+web3
+https://github.com/ethereum/web3.js/
+En windows: npm install --global --production windows-build-tools
+ganache
+http://truffleframework.com/ganache/
+Zepelin
+https://openzeppelin.org/
+

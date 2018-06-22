@@ -1,0 +1,10 @@
+1) vas a una carpeta y pones en la consola truffle init
+2) en la carpeta contracts esta migrations.sol es un contrato particular que maneja las  migraciones de los contratos que creamos.
+3) en contracts se ponen todos los contratos a deployar
+4) se pueden realizar test en el mismo lenguaje, pero suele ser bastante engorroso.
+5) utilizamos el comando truffle develop para hacer el setup de la blockchain en una consola aparte, lo inicializamos desde la carpeta en donde esta el proyecto.
+6) en el caso de testing, siempre truffle develop nos crea la misma cuenta.
+7) si corremos web3.eth.blockNumber nos muestra la altura del bloque de la blockchain
+8) usamos el comando we3-repl -p http://localhost:9545 (le ponemos la direccion en donde está el nodo del truffle develop)
+8) con web3 interactuamos con el nodo de la blockchain, en https://web3js.readthedocs.io/en/1.0/getting-started.html aparecen los comandos más comunes, la consola de web3 es predictiva y con tab sujiere comandos.
+9) Si vamos a la terminal en donde tenemos truffle develop corriendo, y corremos el comando migrate, nos deploya el contrato.
