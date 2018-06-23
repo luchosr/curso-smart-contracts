@@ -5,6 +5,15 @@
 5) utilizamos el comando truffle develop para hacer el setup de la blockchain en una consola aparte, lo inicializamos desde la carpeta en donde esta el proyecto.
 6) en el caso de testing, siempre truffle develop nos crea la misma cuenta.
 7) si corremos web3.eth.blockNumber nos muestra la altura del bloque de la blockchain
-8) usamos el comando we3-repl -p http://localhost:9545 (le ponemos la direccion en donde está el nodo del truffle develop)
+8) usamos el comando web3-repl -p http://localhost:9545 (le ponemos la direccion en donde está el nodo del truffle develop)
 8) con web3 interactuamos con el nodo de la blockchain, en https://web3js.readthedocs.io/en/1.0/getting-started.html aparecen los comandos más comunes, la consola de web3 es predictiva y con tab sujiere comandos.
 9) Si vamos a la terminal en donde tenemos truffle develop corriendo, y corremos el comando migrate, nos deploya el contrato.
+10) si queremos enviar montos de una direccion a otra podemos hacer: web3.eth.sendTransaction({from:web3.eth.accounts[0], to:web3.eth.accounts[1],value:1000})
+y nos devuelve el hash de la Tx.
+11) Si tipeamos web3.eth.getBlock(1), nos da la informacion del bloque que pasamos por parámetro, en uno de los items vemos el hash de la transaccion.
+12) en este tipo de simulaciones te va a tomar una transaccion por bloque generalmente, cosa que no ocurre en la vida real.
+
+
+
+
+Consultas para realizar:
