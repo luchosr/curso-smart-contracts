@@ -12,6 +12,8 @@
 y nos devuelve el hash de la Tx.
 11) Si tipeamos web3.eth.getBlock(1), nos da la informacion del bloque que pasamos por parámetro, en uno de los items vemos el hash de la transaccion.
 12) en este tipo de simulaciones te va a tomar una transaccion por bloque generalmente, cosa que no ocurre en la vida real.
+13) Si tipeamos we3.eth.getTransaction('hash de la tx') obtenemos el valor de gas la ta Tx.
+
 
 
 
