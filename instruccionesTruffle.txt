@@ -13,8 +13,14 @@ y nos devuelve el hash de la Tx.
 11) Si tipeamos web3.eth.getBlock(1), nos da la informacion del bloque que pasamos por parámetro, en uno de los items vemos el hash de la transaccion.
 12) en este tipo de simulaciones te va a tomar una transaccion por bloque generalmente, cosa que no ocurre en la vida real.
 13) Si tipeamos we3.eth.getTransaction('hash de la tx') obtenemos el valor de gas la ta Tx.
-
-
+14) Con we3.eth.getTransactionReceip('hash de la tx') vemos el recibo que nos muestra la blockchain de lo que pasó.
+15) La faucet de Ropsten siempre da ether gratis para probar el contrato en una testnet antes del deploy en la red oficial.
+- Se desarrolla el contrato en una red de desarrollo local.
+- Se prueba en una testnet para ver o aproximar los costos de procudir el contrato.
+- Se deploya a la MainNet.
+16) web3.personal.newAccount() te crea una cuenta nueva.
+17) con .exit terminamos la sesion de truffle.
+18) "migrate" en truffle develop nos migra (distinto de deploy) el contrato.
 
 
 
