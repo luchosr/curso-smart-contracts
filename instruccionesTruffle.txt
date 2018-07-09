@@ -21,7 +21,18 @@ y nos devuelve el hash de la Tx.
 16) web3.personal.newAccount() te crea una cuenta nueva.
 17) con .exit terminamos la sesion de truffle.
 18) "migrate" en truffle develop nos migra (distinto de deploy) el contrato.
+19) enrutamos el contrato de storage.sol con var Storage = artifacts.require("./Migrations.sol");
 
+module.exports = function(deployer){
+deployer.deploy(Storage);
+};
+ en el archivo 2_deploy.js
+ 
 
+20) si nos fijamos en la carpeta bild, luego de migrar el SimpleStorage nos creo el Json de SimpleStorage.json. Si tenes algun problema de error, te conviene borrar la carpeta y volver a realizar el migrate.
+
+21) Analizando el código:
+-  pragma denota la version de compilacion del contrato.
+- uint es un prefijo de una variable entero.
 
 Consultas para realizar:
