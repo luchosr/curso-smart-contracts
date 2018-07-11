@@ -34,5 +34,16 @@ deployer.deploy(Storage);
 21) Analizando el código:
 -  pragma denota la version de compilacion del contrato.
 - uint es un prefijo de una variable entero.
+  -34
+- Los strings no se pueden comparar en solidity, para comparar datos hay que hashearslos, ej: hash(a) == hash(a).
+- los parametros se deben introducir con el tipado, (el tipo de variable y el nombre de la variable).
+- internal o external es para saber el scope de la variable dentro o fuera de la fc o contrato. (igual generalmente se usa private o public)
+
+- cuando ponemos "memory" es que alojamos la info en la memoria interna y no en el storage.
+- struct es para una erstructura de datos 
+- msg (message) es una palabra reservada para los parámetros que nos llegaron en la transaccion, msg.sender es el address de quien envía la transaccion, msg.value es el costo de la transaccion.
+- view es un comando que nos permite ver lo que tiene el nodo, no tiene consumo o gasto.
+- mappnig es parecido al método .map
+22) Siempre hay que tener en cuenta que el truffle tiene herramientas de testing
 
 Consultas para realizar:
