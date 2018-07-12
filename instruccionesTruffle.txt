@@ -46,4 +46,8 @@ deployer.deploy(Storage);
 - mappnig es parecido al método .map
 22) Siempre hay que tener en cuenta que el truffle tiene herramientas de testing
 
+23) entonces para hacer un proyecto hay que tener en cuenta:
+- Desarrollar un contrato en la carpeta contracts con extensión .sol
+- Preparar el testing dentro de la carpeta test
+
 Consultas para realizar:
